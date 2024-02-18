@@ -12,7 +12,11 @@ namespace ToDoList.Models
         public Filters Filters { get; set; }
         public List<Status> Statuses { get; set; }
         public List<Category> Categories { get; set; }
+
         public Dictionary<string, string> DueFilters { get; set; }
-        public ToDo CurrentTask { get; set;}
+
+        public List<ToDo> Tasks { get; set; }
+
+        public ToDo CurrentTask { get; set; }
     }
 }
